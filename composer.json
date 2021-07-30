@@ -1,0 +1,16 @@
+{
+  "name": "drupal/admin_toolbar_quick_flush",
+  "description": "Provides methods to clear cache easier.",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Shean Hoxie",
+      "homepage": "https://www.drupal.org/u/sheanhoxie",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "drupal/core": "^8.8.0 || ^9.0"
+  }
+}

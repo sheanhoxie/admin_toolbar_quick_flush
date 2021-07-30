@@ -1,0 +1,18 @@
+.toolbar-icon-admin-toolbar-quick-flush-flush-cache {
+  text-indent: -9999px;
+}
+
+.toolbar-icon-admin-toolbar-quick-flush-flush-cache:before {
+  box-sizing: content-box;
+  background-image: url(../img/plunger.svg);
+  padding-bottom: 0;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  margin-left: 4px;
+}
+
+.toolbar-icon-admin-toolbar-quick-flush-flush-cache:active:before,
+.toolbar-icon-admin-toolbar-quick-flush-flush-cache.active:before {
+  background-image: url(../img/plunger.svg);
+}

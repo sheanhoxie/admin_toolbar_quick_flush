@@ -1,0 +1,34 @@
+# QUICK FLUSH CACHE
+admin_toolbar_quick_flush.flush_cache:
+  title: 'Flush Cache'
+  parent: system.admin
+  route_name: admin_toolbar_tools.flush
+  weight: -100
+admin_toolbar_quick_flush.flush_cache_links:
+  title: 'Routing, links & menu'
+  parent: admin_toolbar_quick_flush.flush_cache
+  route_name: admin_toolbar_tools.flush_menu
+admin_toolbar_quick_flush.flush_cache_plugins:
+  title: 'Plugins cache'
+  parent: admin_toolbar_quick_flush.flush_cache
+  route_name: admin_toolbar_tools.plugin
+admin_toolbar_quick_flush.flush_cache_static:
+  title: 'Static caches'
+  parent: admin_toolbar_quick_flush.flush_cache
+  route_name: admin_toolbar_tools.flush_static
+admin_toolbar_quick_flush.flush_cache_cssjs:
+  title: 'CSS and JS'
+  parent: admin_toolbar_quick_flush.flush_cache
+  route_name: admin_toolbar_tools.cssjs
+admin_toolbar_quick_flush.flush_cache_twig:
+  title: 'Twig'
+  parent: admin_toolbar_quick_flush.flush_cache
+  route_name: admin_toolbar_tools.flush_twig
+admin_toolbar_quick_flush.flush_cache_views:
+  title: 'Views'
+  parent: admin_toolbar_quick_flush.flush_cache
+  route_name: admin_toolbar_tools.flush_views
+admin_toolbar_quick_flush.flush_cache_theme:
+  title: 'Theme'
+  parent: admin_toolbar_quick_flush.flush_cache
+  route_name: admin_toolbar_tools.theme_rebuild
